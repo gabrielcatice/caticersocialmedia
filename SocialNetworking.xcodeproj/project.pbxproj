@@ -18,6 +18,8 @@
 		D3FB64461FADEC4D00F548FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FB64451FADEC4D00F548FB /* Assets.xcassets */; };
 		D3FB64491FADEC4D00F548FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FB64471FADEC4D00F548FB /* LaunchScreen.storyboard */; };
 		D3FB64511FADECB200F548FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3FB64501FADECB200F548FB /* GoogleService-Info.plist */; };
+		D3FF9F421FB1D0B800C4273F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FF9F411FB1D0B800C4273F /* FeedViewController.swift */; };
+		D3FF9F441FB1D8FF00C4273F /* SegueFromRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FF9F431FB1D8FF00C4273F /* SegueFromRightView.swift */; };
 		FF61009ABCEC6B04B93CB89E /* Pods_SocialNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25C6BF50F1CB053B9DAFC40 /* Pods_SocialNetworking.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +41,8 @@
 		D3FB64481FADEC4D00F548FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3FB644A1FADEC4D00F548FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3FB64501FADECB200F548FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D3FF9F411FB1D0B800C4273F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		D3FF9F431FB1D8FF00C4273F /* SegueFromRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueFromRightView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				D3FB64401FADEC4D00F548FB /* SignInViewController.swift */,
+				D3FF9F411FB1D0B800C4273F /* FeedViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 				D3F60DC31FAF52D60054E044 /* RoundButton.swift */,
 				D3F60DC51FAF54D30054E044 /* FancyField.swift */,
 				D3F60DC71FAF561F0054E044 /* FancyButton.swift */,
+				D3FF9F431FB1D8FF00C4273F /* SegueFromRightView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -247,6 +253,7 @@
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -257,6 +264,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -288,11 +296,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3F60DC61FAF54D30054E044 /* FancyField.swift in Sources */,
+				D3FF9F441FB1D8FF00C4273F /* SegueFromRightView.swift in Sources */,
 				D3FB64411FADEC4D00F548FB /* SignInViewController.swift in Sources */,
 				D3F60DC41FAF52D60054E044 /* RoundButton.swift in Sources */,
 				D3F60DC81FAF561F0054E044 /* FancyButton.swift in Sources */,
 				D3FB643F1FADEC4D00F548FB /* AppDelegate.swift in Sources */,
 				D3F60DBF1FAF429C0054E044 /* FancyView.swift in Sources */,
+				D3FF9F421FB1D0B800C4273F /* FeedViewController.swift in Sources */,
 				D3F60DC21FAF43500054E044 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
