@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3002A9A1FB3203F00584663 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3002A991FB3203F00584663 /* CircleView.swift */; };
 		D3F60DBF1FAF429C0054E044 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F60DBE1FAF429C0054E044 /* FancyView.swift */; };
 		D3F60DC21FAF43500054E044 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F60DC11FAF43500054E044 /* Constants.swift */; };
 		D3F60DC41FAF52D60054E044 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F60DC31FAF52D60054E044 /* RoundButton.swift */; };
@@ -27,6 +28,7 @@
 		8354FF6289FB2E77A0267DFC /* Pods-SocialNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNetworking/Pods-SocialNetworking.release.xcconfig"; sourceTree = "<group>"; };
 		C25C6BF50F1CB053B9DAFC40 /* Pods_SocialNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F1106B434262180ABC8238 /* Pods-SocialNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNetworking/Pods-SocialNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		D3002A991FB3203F00584663 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		D3F60DBE1FAF429C0054E044 /* FancyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
 		D3F60DC11FAF43500054E044 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D3F60DC31FAF52D60054E044 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				D3F60DC51FAF54D30054E044 /* FancyField.swift */,
 				D3F60DC71FAF561F0054E044 /* FancyButton.swift */,
 				D3FF9F431FB1D8FF00C4273F /* SegueFromRightView.swift */,
+				D3002A991FB3203F00584663 /* CircleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				D3F60DC41FAF52D60054E044 /* RoundButton.swift in Sources */,
 				D3F60DC81FAF561F0054E044 /* FancyButton.swift in Sources */,
 				D3FB643F1FADEC4D00F548FB /* AppDelegate.swift in Sources */,
+				D3002A9A1FB3203F00584663 /* CircleView.swift in Sources */,
 				D3F60DBF1FAF429C0054E044 /* FancyView.swift in Sources */,
 				D3FF9F421FB1D0B800C4273F /* FeedViewController.swift in Sources */,
 				D3F60DC21FAF43500054E044 /* Constants.swift in Sources */,
